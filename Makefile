@@ -13,7 +13,7 @@ DEPENDENCIES=
 all: make_dirs $(TARGET)_example.out
 
 make_dirs:
-	mkdir -p  BINDIR
+	mkdir -p  $(BINDIR)
 
 $(TARGET)_example.out: $(TARGET)_example.o lib$(TARGET).so $(TARGET)_dependencies # final compilation
 	$(CC) $< -L$(BINDIR) -o $@ -l$(TARGET) $(DEPENDENCIES)
