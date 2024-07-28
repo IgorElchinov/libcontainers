@@ -1,3 +1,11 @@
-/*/*.gch
+# ignore binary files
+*.so
+*.[ao]
+*.out
 
-/*/*.so
+# ignore text files
+*.txt
+
+# ignore weird linux files
+*.swap
+*.gch
