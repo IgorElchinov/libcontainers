@@ -7,5 +7,5 @@
 *.txt
 
 # ignore weird linux files
-*.swap
+*.swp
 *.gch
